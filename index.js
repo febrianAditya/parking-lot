@@ -1,4 +1,4 @@
-// Sekanrio Mobil Parkir
+// Story1 and Story2
 
 class Car {
     constructor(plateNumber, typeCar, merk) {
