@@ -18,7 +18,6 @@ Two
 - Koding: Attendant memanage satu parking lot terlebih dahulu.
 - Parking Attendant bisa mememanage lebih banyak lot
 - Attendant bisa menanggulangi masalah parkir ganda, mobil tidak ditemukan, tiket tidak valid
-Aktifkan dukungan pembaca layar
 
 
 PPT
@@ -32,5 +31,17 @@ Story Satu dn Dua
     a. validasi tiket mobil jika tidak ditemukan
 5. buat method cekPark() untuk melihat mobil apa saja didalamnya
 
-Story 3 dn 4
 
+Story Tiga dan Empat
+1. Buat class ParkingAttendant
+2. Parking Attendant menyimpan informasi nama petugas dan lot yang di handle petugas itu
+3. buatkan method addParkingLot untuk lot apa saja Pak Budi
+4. buatkan method showHandledLots() untuk cek lot apa saja yang dikelola sama pak budi
+5. Buat method chooseAvailableLot() untuk mencari lot parkir yang kosong (konsep delegasi)
+5. Buat method park() seperti di class ParkingLot
+    a. validasi cek full tidak parkiran
+    b. validasi plat nomor apakah sudah tersimpan di Map?
+
+coba kerjain sendiri yaa
+6. buat method unParkk() untuk keluarin mobil
+    a. validasi tiket mobil jika tidak ditemukan
